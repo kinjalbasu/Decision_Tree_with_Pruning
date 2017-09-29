@@ -1,2 +1,50 @@
-# Decision_Tree_with_Pruning
-This is a decision tree implementation using ID3 Algorithm. After the creation the tree has been pruned to get performance increment. 
+# Decision Tree Algorithm - ID3 with Pruning
+
+### Synopsis
+The ID3 algorithm to create a decision tree has been implemented in this project. Following are the features of this project - 
+  - Dynamically creates the Decision Tree.
+  - Independent of Number of Attributes and Training Data
+  - After creation, tree has been pruned to get better accuracy
+
+### Software’s Used
+Following are the software’s used to develop this project - 
+  - JavaSE 1.8
+  - IDE: Eclipse Oxygen 4.7
+
+Following are the Java packages used in the code - 
+  - java.util.*
+  - java.io.BufferedReader
+  - java.io.BufferedWriter
+  - java.io.File
+  - java.io.FileOutputStream
+  - java.io.FileReader
+  - java.io.IOException
+
+### How to Run the Code 
+
+Following are the steps to run the code - 
+  - Download the project folder - "Decision Tree" and save in the local
+  - Start Eclipse Oxygen 4.7
+  - Open the project folder by clicking File > Open File and by selecting the saved project folder.
+  - Run the project by clicking Run > Run.
+  - Code needs 4 inputs from the user: 
+    - Training Dataset Path (2 sets are provided)
+    - Validation Dataset Path (2 sets are provided)
+    - Testing Dataset Path (2 sets are provided)
+    - Pruning Factor
+  - Code will run and provide the output file in project directory as out.txt.
+  - In the output file user will find the following data: 
+    - Decision Tree
+    - Following data for pre and post pruning: 
+      - Number of nodes and leaf nodes
+      - Number of Training Instances and attributes
+      - Number of Validation Instances and attributes
+      - Number of Test Instances and attributes
+      - Accuracy by testing using - Training data, Validation data, Testing data
+
+### References
+  - https://en.wikipedia.org/wiki/ID3_algorithm
+  - http://www.cise.ufl.edu/~ddd/cap6635/Fall-97/Short-papers/2.htm
+  - https://en.wikipedia.org/wiki/Pruning_(decision_trees)
+  - https://www.ibm.com/support/knowledgecenter/en/SSEPGG_9.5.0/com.ibm.im.visual.doc/t_pruning.html
+  - http://www.cs.princeton.edu/courses/archive/spr07/cos424/papers/mitchell-dectrees.pdf
